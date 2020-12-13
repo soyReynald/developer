@@ -22,6 +22,7 @@
             'meta_key' => 'event_date',
             'orderby' => 'meta_value_num',
             'order' => 'ASC',
+            'posts_per_page' => 2,
             'meta_query' => array(
               array(
                 'key' => 'event_date',
