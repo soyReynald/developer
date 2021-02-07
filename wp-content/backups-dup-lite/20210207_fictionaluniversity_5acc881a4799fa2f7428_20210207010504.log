@@ -1,0 +1,106 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: February 7, 2021 1:06 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.40.1
+WORDPRESS:	5.5.1
+PHP INFO:	7.3.5 | SAPI: cgi-fcgi
+SERVER:		nginx/1.16.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+MEMORY STACK: 2MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:13 | filtered:0 | create:13
+FILTERED: []
+SQL CREATED: 20210207_fictionaluniversity_5acc881a4799fa2f7428_20210207010504_database.sql
+SQL FILE SIZE: 663.13KB (679047)
+SQL FILE TIME: 2021-02-07 01:06:12
+SQL RUNTIME: 1.53 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/Users/Administrador/Local Sites/fictional-university/app/public
+ARCHIVE FILE: 20210207_fictionaluniversity_5acc881a4799fa2f7428_20210207010504_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	159.41MB
+STATS:	Dirs 2,911 | Files 19,863
+SQL ADDED: 20210207_fictionaluniversity_5acc881a4799fa2f7428_20210207010504_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 22774
+    [filename] => C:\Users\Administrador\Local Sites\fictional-university\app\public\wp-content\backups-dup-lite\tmp\20210207_fictionaluniversity_5acc881a4799fa2f7428_20210207010504_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 22773
+[PHP ERR][WARN] MSG:ZipArchive::close(): Read error: No such file or directory [CODE:2|FILE:C:\Users\Administrador\Local Sites\fictional-university\app\public\wp-content\plugins\duplicator\classes\package\class.pack.archive.zip.php|LINE:205]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, ZipArchive->close, DUP_Handler::error, DUP_Handler::getMessage
+
+==================================================================================
+DUPLICATOR ERROR
+Please try again! If the error persists see the Duplicator 'Help' menu.
+---------------------------------------------------------------------------------
+MESSAGE:
+	ZipArchive close failure.
+DETAILS:
+	The ZipArchive engine is having issues zipping up the files on this server. For more details visit the FAQ
+I'm getting a ZipArchive close failure when building. How can I resolve this?
+[https://snapcreek.com/duplicator/docs/faqs-tech/#faq-package-165-q]
+TRACE:
+	 1. class.pack.archive.zip.php : Error (214)
+	 2. class.pack.archive.php : create (105)
+	 3. class.pack.php : build (1313)
+	 4. ctrl.package.php : runZipBuild (98)
+	 5. class-wp-hook.php : duplicator_package_build (287)
+	 6. class-wp-hook.php : apply_filters (311)
+	 7. plugin.php : do_action (478)
+	 8. admin-ajax.php : do_action (176)
+==================================================================================
+
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip C:/Users/Administrador/Local Sites/fictional-university/app/public/wp-content/backups-dup-lite/tmp/20210207_fictionaluniversity_5acc881a4799fa2f7428_20210207010504_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 663.13KB
+INSTALLER FILE: 61.3KB
+ARCHIVE FILE: 1.77MB 
+EXPECTED FILE/DIRECTORY COUNT: 22,774
+ACTUAL FILE/DIRECTORY COUNT: 22,773
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 272.42 sec.
+PEAK PHP MEMORY USED: 18MB
+DONE PROCESSING => 20210207_fictionaluniversity February 7, 2021 1:10 am
+
